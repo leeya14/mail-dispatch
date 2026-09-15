@@ -1,5 +1,15 @@
 # Mail Dispatch
 
+## 실행해 보기
+
+[실행용 ZIP 다운로드 및 실행 안내](https://github.com/leeya14/mail-dispatch/releases/tag/v1.0.0)
+
+Java 17 이상과 Python 3가 설치된 환경에서 실행할 수 있습니다.
+첨부된 `mail-dispatch-demo.zip`을 압축 해제한 뒤
+`start-demo.bat`을 실행하고 http://127.0.0.1:8081에 접속하세요.
+
+외부 이메일 발송 없이 로컬 수신함에서 결과를 확인할 수 있습니다.
+
 **메일 예약 발송·취소·실패 재시도를 처리하는 Spring Boot 백엔드 포트폴리오 프로젝트.**
 
 제작 방식: 생성형 AI(Codex) 협업. 코드 생성·자동 테스트·로컬 연동 검증에 AI 도구를 활용했습니다.
