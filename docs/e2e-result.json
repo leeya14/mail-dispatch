@@ -1,0 +1,18 @@
+{
+  "checkedAt": "2026-09-15T12:02:35.762702+00:00",
+  "result": "PASS",
+  "database": "H2 file / MySQL compatibility mode",
+  "smtp": "Real JavaMailSender -> local SMTP sink; first RCPT returns 451",
+  "checks": [
+    "HTTP create 201",
+    "Duplicate replay 200; same id",
+    "Changed payload 409",
+    "SMTP 451 triggers retry",
+    "Second SMTP attempt accepted",
+    "Attempt history FAILED -> SMTP_ACCEPTED",
+    "Exactly one message captured; Korean subject/body verified",
+    "Future request cancellation",
+    "Invalid email 400"
+  ],
+  "externalMailSent": false
+}
