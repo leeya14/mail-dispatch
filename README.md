@@ -103,7 +103,3 @@ Python SMTP 서버가 실행 중이라면 먼저 종료하세요. `.env.example`
 - `docs/AI_COLLABORATION.md`: 제작·검증 과정과 기여 범위
 - `tools/demo_smtp.py`: 로컬 SMTP 수신함
 - `tools/verify_e2e.py`: HTTP + 실제 SMTP 자동 연동 검증
-
-GitHub에 올릴 때 실행 JAR(`run/`), DB 파일(`data/`), 비밀번호 파일(`.env`)은 제외하세요. 프로젝트 소스에서 `mvn package`로 동일한 JAR를 빌드할 수 있습니다.
-
-참고: [Spring Email](https://docs.spring.io/spring-boot/reference/io/email.html), [Spring JDBC](https://docs.spring.io/spring-framework/reference/data-access/jdbc/core.html), [Mailpit](https://github.com/axllent/mailpit)
